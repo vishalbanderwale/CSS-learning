@@ -1,0 +1,62 @@
+p {
+  color: brown;
+}
+
+.para {
+  background-color: burlywood;
+}
+
+.one {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#info {
+  background-color: brown;
+  color: whitesmoke;
+}
+
+.para1 {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+p.para1 {
+  font-size: 50px;
+}
+
+* {
+  background-color: chartreuse;
+}
+
+h4,
+h5,
+h6 {
+  color: blue;
+  border: 1px solid black;
+}
+
+p[class] {
+  border: 1px dotted black;
+}
+
+p[id] {
+  border: 2px dashed black;
+}
+
+img[src] {
+  border: 1px solid black;
+}
+
+img[alt] {
+  color: beige;
+}
+
+a[href] {
+  background-color: blue;
+}
+
+a[target="_top"] {
+  color: azure;
+  font-size: 25px;
+}

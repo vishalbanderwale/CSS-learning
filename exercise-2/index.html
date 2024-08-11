@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selectors</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+    <!--css syntax: h1 is selector , color is property, blue is value & the {inside is css declartion block}-->
+  </head>
+  <body>
+    <h1>css syntax</h1>
+    <h2>
+      simple selectors:based on element name, id,class :element selectors,id
+      selectors,classs selectors,universal selector
+    </h2>
+    <p>element selector</p>
+    <!--class & id are attribute-->
+    <p class="para one">class selector</p>
+    <!--we can use more than one class name in same element same class name can be given to other elements also-->
+    <!--Different scenrio when class name are same we can use p.class name to style particular element-->
+    <h3 class="para1">same class name</h3>
+    <p class="para1">same class name</p>
+    <p id="info">id selector</p>
+    <!--id should be unique cannot be used by other elements-->
+    <h2>universal selector</h2>
+    <!--selects all the elements-->
+    <h4>grouping selector</h4>
+    <h5>grouping selector</h5>
+    <h6>grouping selector</h6>
+    <!--grouping selector is used to style to elements which we want to have same style we can reduce the code-->
+    <hr />
+    <h1>attribute selectors</h1>
+    <p class="para3">attribute selector</p>
+    <!--styling through attribute name-->
+    <p id="para4">attribute selector by name</p>
+    <img src="img.jpg" alt="flower img" />
+    <p>attribute selector</p>
+    <a href="https://www.google.com" target="_blank">google</a>
+    <p>attribute selector by name & value</p>
+    <a href="https://www.facebook.com" target="_top">facebook</a>
+  </body>
+</html>
