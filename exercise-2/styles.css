@@ -26,7 +26,7 @@ p.para1 {
 }
 
 * {
-  background-color: chartreuse;
+  background-color: pink;
 }
 
 h4,
@@ -59,4 +59,102 @@ a[href] {
 a[target="_top"] {
   color: azure;
   font-size: 25px;
+}
+
+small:hover {
+  color: blue;
+  cursor: pointer;
+}
+a[href="https://www.gmail.com"]:link
+{
+  color: white;
+  border: 2px solid black;
+}
+
+a[href="https://www.gmail.com"]:hover
+{
+  background-color: chartreuse;
+  color: black;
+}
+
+a[href="https://www.gmail.com"]:active
+{
+  color: blue;
+  background-color: whitesmoke;
+}
+
+b:hover {
+  content: "hello world";
+  border: 1px solid black;
+  background-color: palevioletred;
+  color: yellowgreen;
+}
+
+p {
+  display: none;
+}
+
+div:hover p {
+  display: block;
+  background-color: blue;
+}
+
+h6:first-child {
+  color: rgba(174, 174, 163, 0);
+}
+
+h6:first-of-type {
+  background-color: whitesmoke;
+}
+
+h6:last-child {
+  border: 1px dashed black;
+}
+
+h6:last-of-type {
+  background-color: rgb(201, 29, 29);
+}
+
+h6:nth-child(2) {
+  padding: 10px;
+}
+
+h6:nth-of-type(1) {
+  padding: 10px;
+}
+
+h6:nth-last-child(3) {
+  color: white;
+}
+
+h6:nth-last-of-type(3) {
+  font-size: 50px;
+}
+
+input[type="text"]:focus {
+  background-color: yellowgreen;
+}
+
+input:read-only {
+  background-color: red;
+}
+
+h5::first-letter {
+  border: 2px solid black;
+}
+
+h2::first-line {
+  color: red;
+}
+
+h5::before {
+  content: url("https://lh3.googleusercontent.com/a/ACg8ocJc5oENt0HLgK9TBZNnRxagR7X0fgFnZurJjyGRzHjnkawA5Io=s360-c-no");
+}
+
+h2::selection {
+  background-color: yellow;
+}
+
+li::marker {
+  color: red;
 }
