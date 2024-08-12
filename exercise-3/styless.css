@@ -10,9 +10,11 @@
 /* middle of box is content:text,img */
 /*padding is space b/w content and border */
 /* pading increase the space but the content remain same size */
-/* border differentiate the elements */
-/* margin used to separate the two tags/elements */
+/* border differentiate the elements: line around the padding */
+/* margin adds space outside the elements separate elements from  other elements*/
+/* margin space between  two elements */
 /* width we give only to content */
+
 /*width =width of content area + left & right padding + left & right border */
 /*height=height of content area + top&bottom padding +top&bottom border */
 /* By default browser will have (box-sizing:content-area) calculate the total height & width separately=it will consider the width,padding,border separately */
