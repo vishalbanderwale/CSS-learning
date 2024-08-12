@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* box model */
+/* everything on web page will render in form of boxes */
+/* box will wrap around every HTML element */
+/* middle of box is content:text,img */
+/*padding is space b/w content and border */
+/* pading increase the space but the content remain same size */
+/* border differentiate the elements */
+/* margin used to separate the two tags/elements */
+/* width we give only to content */
+/*width =width of content area + left & right padding + left & right border */
+/*height=height of content area + top&bottom padding +top&bottom border */
+/* By default browser will have (box-sizing:content-area) calculate the total height & width separately=it will consider the width,padding,border separately */
+/* example : width=100px+20p+4px=124px
+/* box-sizing:border-box will cal width and height including padd,border,width,height it will combine & adjust : width=76.8+20+3.2=100px  */
+
+button {
+  padding: 10px;
+  border: 2px dotted darkblue;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+}
