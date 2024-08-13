@@ -1,6 +1,10 @@
 /* css colors */
 /*comments are used to explain and document source code */
 
+* {
+  margin: 0;
+}
+
 h1 {
   color: blue;
 }
@@ -33,4 +37,40 @@ lightness: 0%:black, 50%:neither light or dark , 100%:white */
 
 h6 {
   background-color: hsl(100, 25%, 50%);
+}
+
+/* div,p can also be used for opacity */
+
+.op {
+  opacity: 0.5;
+  background-color: red;
+}
+
+img {
+  opacity: 0.2;
+}
+
+h1 {
+  border-top: dashed;
+  border-right: solid;
+  border-bottom: dotted;
+  border-left: solid;
+  border-radius: 8px;
+}
+
+/* for centering the div width is mandatory to mention*/
+/* element will take mentioned width than browser will give equal space right & left */
+/* 20px 25px 30px 35px : top,right,bottom,left */
+/* 20px 25px 30px : top,right&left,bottom */
+/* 20px 25px:top & bottom , right&left */
+/* 20px:top,right,bottom,left */
+
+.center {
+  border: 1px solid black;
+  width: 150px;
+  margin: auto;
+}
+
+h1 {
+  margin: 50px;
 }
