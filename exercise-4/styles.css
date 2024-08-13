@@ -1,0 +1,36 @@
+/* css colors */
+/*comments are used to explain and document source code */
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  background-color: blueviolet;
+}
+
+h3 {
+  border: 2px dashed red;
+}
+
+/*a is alpha channel: specific opacity of color = 0.0 is used for full transparency and
+ 1.0 is not transparent at all   (0 value is invisible) */
+
+h4 {
+  color: rgb(100, 100, 155);
+  background-color: rgba(100, 50, 90, 0.5);
+}
+
+/* hexa decimal : #RRGGBB || three digit hexa can be used as two didgit #ff1122:#f12(only if value of RR,GG & BB is same) */
+
+h5 {
+  background-color: #ff1122;
+  /* #f12 */
+}
+
+/* hsl:hue is 0 to 360 (0 :red, 120:green ,240:blue),saturation: 0%: shade of gray , 100%:full color , 
+lightness: 0%:black, 50%:neither light or dark , 100%:white */
+
+h6 {
+  background-color: hsl(100, 25%, 50%);
+}
