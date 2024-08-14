@@ -1,10 +1,6 @@
 /* css colors */
 /*comments are used to explain and document source code */
 
-* {
-  margin: 0;
-}
-
 h1 {
   color: blue;
 }
@@ -69,8 +65,4 @@ h1 {
   border: 1px solid black;
   width: 150px;
   margin: auto;
-}
-
-h1 {
-  margin: 50px;
 }
