@@ -1,0 +1,33 @@
+h1 {
+  font-family: fantasy;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: xx-small;
+}
+
+h3 {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
+h5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 48px;
+}
+
+h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
