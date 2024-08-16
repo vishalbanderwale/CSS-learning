@@ -1,0 +1,48 @@
+/* converting block elements to inline elements: cannot give width it wont take*/
+
+h1 {
+  border: 1px solid black;
+  display: inline;
+  width: 900px;
+}
+
+h2 {
+  border: 1px solid black;
+}
+
+span {
+  border: 1px solid black;
+}
+
+/* converting inline to block elements */
+
+strong {
+  border: 1px solid black;
+  display: block;
+  width: 500px;
+}
+
+b {
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+}
+
+/* inline-block: element will become inline also  we can provide the width */
+
+h3 {
+  border: 1px solid black;
+  display: inline-block;
+  width: 800px;
+}
+
+/* content disappers */
+
+h4 {
+  display: none;
+}
+
+a {
+  border: 1px solid black;
+  display: block;
+}
