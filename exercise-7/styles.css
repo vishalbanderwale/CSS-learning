@@ -13,13 +13,14 @@ h2 {
   position: relative;
   right: 10px;
   bottom: 30px;
+  border: 2px solid brown;
 }
 
 h3 {
   position: fixed;
   border: 2px solid blue;
   bottom: 0px;
-  right: 5px;
+  right: 50px;
 }
 
 .pos {
