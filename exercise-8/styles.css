@@ -1,0 +1,57 @@
+/* h1 by default font size is 2em */
+/* h2 by default font size is 1.5em */
+
+body {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+div {
+  font-size: 10px;
+}
+
+/* 1em=10px: 3*10=30p */
+
+h3 {
+  font-size: 3em;
+}
+
+html {
+  font-size: 20px;
+}
+
+/* here 1rem=20px so 2*20px=40px */
+
+h4 {
+  line-height: 2rem;
+}
+
+/* 1vw=1% of viewport screen widhth 1vh=1% of viewport screen height */
+/* 50vw means 50% of screen width & 30vh means 30% of screen height */
+
+h5 {
+  width: 50vw;
+  border: 2px solid yellow;
+  height: 30vh;
+}
+
+h6 {
+  border: 2px dotted blue;
+  min-height: 10vh;
+  min-width: 30vw;
+}
+
+.per {
+  width: 200px;
+  border: 2px dashed green;
+  height: 200px;
+}
+
+/* width:50% of 200px & height:50% of 200px */
+p {
+  width: 50%;
+  height: 50%;
+}
