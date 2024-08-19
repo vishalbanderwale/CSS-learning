@@ -38,12 +38,6 @@ h5 {
   height: 30vh;
 }
 
-h6 {
-  border: 2px dotted blue;
-  min-height: 10vh;
-  min-width: 30vw;
-}
-
 .per {
   width: 200px;
   border: 2px dashed green;
@@ -54,4 +48,22 @@ h6 {
 p {
   width: 50%;
   height: 50%;
+}
+
+/* if we use width and height : 50px it will fix take 50px only */
+/* min-width:it will take minimun width of 50px and minimum height of 50px even if there is  content of 20px height and 20px width */
+/* but  maximum it can take unlimited width & height as per content */
+
+div .min {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+/*max-height:if content is 20px it will take 20px height but not exceed 50px content will over full than & same for width */
+
+div .max {
+  border: 2px solid blue;
+  max-height: 50px;
+  max-width: 90px;
 }
