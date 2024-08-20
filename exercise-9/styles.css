@@ -1,7 +1,8 @@
-div {
+div#one {
   border: 2px solid black;
-  width: 5%;
+  width: 10%;
   padding: 5px;
+  margin: 30px;
   background-color: burlywood;
   transition: width 10s 5s, background-color 15s 5s;
 }
@@ -12,7 +13,64 @@ div {
 /* transition delay:after the mentioned delay time the transition effect will start  */
 /* while returning back to normal state it will tkae delay time and it take transition time */
 
-div:hover {
+div#one:hover {
   width: 90%;
   background-color: blue;
+}
+
+/* if we write only div  than other div will  also inherit the same css properties as per css rule & if we mention below the css it will over ridden */
+/* if i mention id in div and write css for div#one the property will not to inherited to other div */
+/* example: div will take above width:5% if we mention below 5% will be over ridden */
+
+/* color will be applied to all p will be inherit same property unless we mention css again */
+/* p {
+  background-color: blue;
+} */
+
+/* it will be applied to particular para blue will change to red */
+
+/* .para{
+    background-color: red;
+} */
+
+/* rotate 20deg clockwise direction & -20deg rotate anti clock wise direction */
+
+div.two {
+  border: 2px solid blue;
+  width: 10%;
+  padding: 5px;
+  margin: 60px;
+  transform: rotate(20deg);
+}
+
+/* translate(move to x-axis: right side :30px & y-axis:move to bottom:10px) */
+/* translateX(30px) & translateY(10px) */
+
+div.three {
+  border: 2px solid blue;
+  width: 10%;
+  padding: 5px;
+  margin: 50px;
+  transform: translate(30px, 10px);
+}
+
+/*scale(2,3):increase 2 times width and 3 times height */
+/* scaleX(2):increase 2 times width and scaleY(3): 3 times height */
+
+div.four {
+  border: 2px solid blue;
+  width: 10%;
+  padding: 5px;
+  margin: 80px;
+  transform: scale(2, 3);
+}
+
+/*skew the elements x & y axis */
+
+div.five {
+  border: 2px solid blue;
+  width: 10%;
+  padding: 5px;
+  margin: 80px;
+  transform: skew(20deg, 30deg);
 }
