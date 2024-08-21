@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Transitions and 2D,3D transform</title>
     <link href="styles.css" rel="stylesheet" />
+    <style>
+      p {
+        font-size: 40px;
+      }
+    </style>
   </head>
   <body>
     <div id="one">trasitions</div>
@@ -12,5 +17,10 @@
     <div class="three">2D transform</div>
     <div class="four">2D transform</div>
     <div class="five">2D transform</div>
+    <hr />
+    <!--specifity check is only for same property-->
+    <!--specifity order:inline>id>class,pseudo class,attribute>elements,pseudo elements-->
+    <!--inline:1000,id:100,class:10,elements:1-->
+    <p style="background-color: yellow" class="para">hello world</p>
   </body>
 </html>

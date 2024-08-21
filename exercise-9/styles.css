@@ -74,3 +74,16 @@ div.five {
   margin: 80px;
   transform: skew(20deg, 30deg);
 }
+
+/* higher specificity will change only  background-color conflict other property will be applied */
+p {
+  background-color: red;
+  border: 2px solid greenyellow;
+}
+
+/* .para has higher specificity than internal style p so font-size:10px will be applied */
+
+.para {
+  padding: 10px;
+  font-size: 10px;
+}
