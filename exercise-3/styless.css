@@ -26,6 +26,7 @@
 /* when box-sizing :border-box */
 /* mentioned width and height inlcudes padding,border inside it */
 /* content area width=width-left & right padding - left & right border  */
+/* It will do the calculations and render the entire div  width and height  as same as mentioned including padding,border inside it */
 
 /* Basically we calculate total width & height by below formula */
 /*Toatl width =width of content area + left & right padding + left & right border */
