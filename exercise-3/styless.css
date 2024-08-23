@@ -7,16 +7,30 @@
 /* box model */
 /* everything on web page will render in form of boxes */
 /* box will wrap around every HTML element */
-/* middle of box is content:text,img */
+/* middle of box is content:text,img,another html tag */
+/* content area:content width + content  height */
+/* fill area : content area + padding */
+/* background-color,img will be applied to fill area */
 /*padding is space b/w content and border */
-/* pading increase the space but the content remain same size */
+/* padding increase the space but the content remain same size */
 /* border differentiate the elements: line around the padding */
 /* margin adds space outside the elements separate elements from  other elements*/
 /* margin space between  two elements */
-/* width we give only to content */
 
-/*width =width of content area + left & right padding + left & right border */
-/*height=height of content area + top&bottom padding +top&bottom border */
+/* when box-sizing:content-box */
+/* mentioned width and height will be taken by content area itself */
+/* content area=Takes mentioned total width + total height*/
+/* While calculating  It separately takes padding and margin in toal width and height */
+/* total width=width+left & right paddding + left & right border */
+
+/* when box-sizing :border-box */
+/* mentioned width and height inlcudes padding,border inside it */
+/* content area width=width-left & right padding - left & right border  */
+
+/* Basically we calculate total width & height by below formula */
+/*Toatl width =width of content area + left & right padding + left & right border */
+/*Toatl height=height of content area + top&bottom padding +top&bottom border */
+
 /* By default browser will have (box-sizing:content-area) calculate the total height & width separately=it will consider the width,padding,border separately */
 /* example : width=100px+20p+4px=124px
 /* box-sizing:border-box will cal width and height including padd,border,width,height it will combine & adjust : width=76.8+20+3.2=100px  */
