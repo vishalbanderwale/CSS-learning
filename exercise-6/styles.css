@@ -46,3 +46,10 @@ a {
   border: 1px solid black;
   display: block;
 }
+
+/* display:inline will wrap the element text white spaces also*/
+
+div {
+  border: 2px solid blue;
+  display: inline;
+}

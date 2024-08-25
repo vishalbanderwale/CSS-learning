@@ -1,4 +1,6 @@
 /* top ,bottom ,right & left moves in opposite directions : right moves in left direction ,left moves in right direction */
+/* if we set top:0,botom:0,left:0,right:0, the elements will take top left */
+/* In css layout happens from top left */
 
 body {
   height: 100vh;

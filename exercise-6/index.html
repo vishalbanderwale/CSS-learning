@@ -8,10 +8,16 @@
   </head>
   <body>
     <!--display:block,inline,inline-block,none-->
-    <!--block elements:always starts on new line take full width available,we can provide width:div,h1 to h6,ul,li,ol,P,form,header,footer,section,content,hr,main-->
+    <!--block elements:always starts on new line take full width:auto available but not width:100%,we can provide width:div,h1 to h6,ul,li,ol,P,form,header,footer,section,content,hr,main-->
+    <!--block elements even if we provide particular width:100px; it will not allow other elements on same line-->
+    <!--The <div> with display: block; width: 200px; will take up the full width of the parent container but visually be 200px wide, pushing the <span> element to the next line.-->
+    <!--its block-level nature forces other elements to start on a new line below it.-->
+
     <h1>block elements</h1>
     <h2>block level elements</h2>
-    <!--inline elements: take required width for its content,we cannot give width : img,a,span,em,i,small,b:bold,strong,code,selection,label,input,button,br-->
+    <!--inline elements: take required width for its content,we cannot give width,height,margin-top,margin-bottom : img,a,span,em,i,small,b:bold,strong,code,selection,label,input,button,br-->
+    <!--but for some inline elements like img,video ,canvas we can give width & height-->
+    <!--margin-top & bottom wont work because it effect layout weird shape as it wraps text-->
     <span>inline elements</span>
     <em>hello</em>
     <small>hi</small>
@@ -19,11 +25,27 @@
     <hr />
     <strong>iam fine</strong>
     <i>world</i>
-    <!--Inline-block: element will become inmline and also we can provide width-->
+    <!--Inline-block: element will become inline in terms of flow and but it will be block in terms of features we can provide width,height,margin -->
+    <!--Inline-block element not wrap well like inline-->
     <h3>inline-block elements</h3>
     <h4>display none:invisible</h4>
     <a href="google.com">google</a>
+    <hr />
+    <hr />
     <!--block elements: used for structing the content ,layout-->
     <!--inline elements: used for text formatting:strong,em,i,small,bold,styling:span,links & media:img,a,inserting special elements:abbrev,code-->
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates,
+      provident dolorum veritatis blanditiis, saepe optio maxime fuga vitae, ad
+      sunt architecto porro? Praesentium voluptates, repellendus cupiditate
+      consectetur maxime, asperiores quae, ea id at sunt cumque autem dolorem
+      hic repellat rerum nisi omnis ipsam commodi temporibus molestiae itaque
+      modi esse quod. Illo, nemo eveniet. Ipsam eligendi mollitia quas voluptas
+      tempore, facere nostrum minus doloribus placeat, nesciunt consequatur cum,
+      reprehenderit rerum. Et amet eius, perspiciatis ullam distinctio aperiam
+      officia quasi tempora porro nisi nihil blanditiis adipisci laborum quae
+      esse omnis fuga voluptates enim beatae! Voluptatum velit animi minus
+      mollitia nemo voluptatibus vitae?
+    </div>
   </body>
 </html>
