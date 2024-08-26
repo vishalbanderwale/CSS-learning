@@ -1,3 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* question-1: y the border is not herited to p tag */
+/*.container {
+    border: 2px solid blue;
+    font-size: 50px;
+  } */
+
+/* please know the basic terminology of how propertys are inherited from parent to child */
+
+/* display:flex (horizontal direction: by default row direction) */
+/* flex-direction:column (vertically top to bottom) */
+/* main-axis:jusitfy-content & cross-axis:align-items */
+
 .container {
   display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+p {
+  border: 2px solid red;
+  width: 10vh;
+}
+
+/* parent container must have display: flex property */
+/* wrap will wrap the flex items */
+/* flex starting from vertically for column so justify content on top */
+/* align-content: is for flex lines */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+
+.flex-container div {
+  border: 2px dotted blue;
+  width: 10vw;
+}
+
+/* by default flex-grow:0 */
+/* refer mdn flex grow */
+/* if size of flex container is larger than combined flex items size  than flex grow */
+/* if size of flex con is less than combined flex items size flex shrink */
+/* 4 times than one container */
+.flex-container .three {
+  flex-grow: 4;
+}
+
+.flex-container .one {
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+/* three times than one container */
+.flex-container .two {
+  flex-grow: 3;
+}
+
+/* flex-basis: specify inital length of flex item */
+
+.para1 {
+  flex-basis: 500px;
 }
