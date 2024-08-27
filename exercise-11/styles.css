@@ -1,0 +1,38 @@
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: left;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: right;
+}
+
+.item5 {
+  grid-area: footer;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "left  main right"
+    "footer footer footer";
+
+  gap: 10px;
+  background-color: whitesmoke;
+}
