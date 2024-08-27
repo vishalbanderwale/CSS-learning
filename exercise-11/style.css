@@ -1,0 +1,39 @@
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+/* grid-template columns:auto auto auto : specify no of columns 2 and size as auto     */
+/* grid-template rows:auto 100px auto : specify no of rows 3 and size of 1st & 3rd ro as auto and 2nd row as 100px */
+/* grid-template:auto 100px auto/auto auto auto shortand property for rows & columns */
+/* gap:100px 50px : shortand property for row-gap:100px and column-gap:50px */
+
+.grid-container {
+  display: grid;
+  border: 2px dotted red;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 100px auto;
+  column-gap: 50px;
+  row-gap: 100px;
+}
+
+/* item2: it will start at row 2 and span 3 rows from there */
+/* 1)question: how much value row-end:9 example will take */
+
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: span 3;
+}
+
+/* grid-row : shortand property for grid-row-start & end */
+/* grid-column: shortand property for grid-column-start & end */
+/* grid-area:1/2/span 2/span 3 : shoratand property for grid-row:1/span 2 & column:2/span 3 */
+
+.item3 {
+  grid-column: 2 / span 2;
+}
